@@ -23,7 +23,6 @@ public class Main {
             System.out.println("Select an option:");
             System.out.println("1. Admin Login");
             System.out.println("2. User Login");
-            System.out.println("3. Return to Menu");
             System.out.println("0. Exit Program");
 
             int option = scanner.nextInt();
