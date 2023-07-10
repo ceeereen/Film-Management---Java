@@ -8,19 +8,22 @@ import java.util.Scanner;
 
 
 
+
+
+
 public class Film {
 
     
 
-    public String filmName;
-    public int year; 
-    public String director;
-    public double imdb;
+    private String filmName;
+    private int year; 
+    private String director;
+    private double imdb;
     //needs to define category toString too since this toString method gives referense to its
-    public ArrayList<Category> categoryArray;
-    public ArrayList<Platform> platformList;
-    public String showTimes;//gösterim saatleri
-    public ArrayList<Film> filmList = new ArrayList<>();//?
+    private ArrayList<Category> categoryArray;
+    private ArrayList<Platform> platformList;
+    private String showTimes;//gösterim saatleri
+    private ArrayList<Film> filmList = new ArrayList<>();//?
     Scanner scanner = new Scanner(System.in);
 
     
